@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDB Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">TMDB</div>
+        <ul>
+            <li><a href="-">Movies</a></li>
+            <li><a href="-">TV Shows</a></li>
+            <li><a href="-">People</a></li>
+            <li><a href="-">More</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="login">Login</button>
+            <button class="join">Join TMDB</button>
+        </div>
+    </nav>
+    <header>
+        <h1>Welcome</h1>
+        <p>Millions of movies, TV shows and people to discover. Explore now.</p>
+        <input type="text" placeholder="Search for a movie, tv show, person...">
+        <button>Search</button>
+    </header>
+    <main>
+        <section id="popular-movies">
+            <h3>Popular Movies</h3>
+            <div class="movies-grid" id="popular-grid"></div>
+        </section>
+        <section id="top-rated-movies">
+            <h3>Top Rated Movies</h3>
+            <div class="movies-grid" id="top-rated-grid"></div>
+        </section>
+        <section id="upcoming-movies">
+            <h3>Upcoming Movies</h3>
+            <div class="movies-grid" id="upcoming-grid"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
